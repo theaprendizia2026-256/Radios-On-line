@@ -4,7 +4,11 @@ const STATIONS = [
     { name: "SomaFM Drone Zone", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
     { name: "Radio Swiss Jazz", frequency: 91.5, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
     { name: "Radio Swiss Classic", frequency: 93.3, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
-    { name: "BBC World Service", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" }
+    { name: "BBC World Service", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
+    { name: "Klassik Stephansdom", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
+    { name: "Barok Clásica", frequency: 89.5, stream: "https://streams.greenhost.nl:8006/barok" },
+    { name: "Italia Anni 60", frequency: 92.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
+    { name: "Ennio Morricone Radio", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" }
 ];
 
 let index = 0;
