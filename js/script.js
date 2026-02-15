@@ -1,6 +1,6 @@
 const STATIONS = [
     { name: "Klassik Stephansdom", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
-    { name: "Radio Clásica", frequency: 88.5, stream: "https://live.musopen.org:8085/streamvbr0" },
+    { name: "Musica Sacra", frequency: 88.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
     { name: "SomaFM Groove Salad", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Barok Clásica", frequency: 89.5, stream: "https://streams.greenhost.nl:8006/barok" },
     { name: "SomaFM Drone Zone", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
