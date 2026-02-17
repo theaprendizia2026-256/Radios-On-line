@@ -9,7 +9,7 @@ const STATIONS = [
     { name: "Ennio Morricone Radio", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
     { name: "BBC World Service", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "Musica Sinfónica", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
-    { name: "Radio Clasica", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" } 
+    { name: "Radio Clasica", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
     { name: "Classic FM Londres, Reino Unido", stream: "https://media-ice.musicradio.com/ClassicFMMP3" } 
 ];
 let index = 0;
