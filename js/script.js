@@ -1,6 +1,6 @@
 const STATIONS = [
     { name: "Radio Klassik Stephansdom, Viena, Austria", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
-    { name: "Radio Sacred Music, Des Moines, Iowa, EE.UU.", frequency: 88.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
+    { name: "Radio Sacred Music, Iowa, EE.UU.", frequency: 88.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 91.5, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
