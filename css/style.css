@@ -36,14 +36,14 @@ body {
 }
 
 .frequency {
-  font-size: 78px;
+  font-size: 80px;
   font-weight: 300;
   letter-spacing: -0.02em;
   font-variant-numeric: tabular-nums;
 }
 
 .station {
-  font-size: 15px;
+  font-size: 14px;
   color: var(--muted);
   text-align: center;
   white-space: nowrap;
