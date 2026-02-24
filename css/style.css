@@ -43,7 +43,7 @@ body {
 }
 
 .station {
-  font-size: 14.5px;
+  font-size: 15px;
   color: var(--muted);
   text-align: center;
   white-space: nowrap;
