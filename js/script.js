@@ -1,17 +1,18 @@
 const STATIONS = [
-    { name: "Klassik Stephansdom", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
-    { name: "Musica Sacra", frequency: 88.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
-    { name: "SomaFM Groove Salad", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
-    { name: "SomaFM Drone Zone", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
-    { name: "Radio Swiss Jazz", frequency: 91.5, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
-    { name: "Italia Anni 60", frequency: 92.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
-    { name: "Radio Swiss Classic", frequency: 93.3, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
-    { name: "Ennio Morricone Radio", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
-    { name: "BBC World Service", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
-    { name: "Musica Sinfónica", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
-    { name: "Radio Clasica", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
-    { name: "Classic FM Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" } 
+    { name: "Radio Klassik Stephansdom, Viena, Austria", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
+    { name: "Radio Sacred Music, Des Moines, Iowa, EE.UU.", frequency: 88.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
+    { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
+    { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
+    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 91.5, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
+    { name: "Radio Italia anni 60, Milán, Italia", frequency: 92.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
+    { name: "Radio Swiss Classic, Basilea, Suiza", frequency: 93.3, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
+    { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
+    { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
+    { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
+    { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
+    { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" } 
 ];
+
 let index = 0;
 let playing = false;
 
@@ -25,19 +26,25 @@ function updateUI() {
     freq.textContent = STATIONS[index].frequency.toFixed(1);
     nameEl.textContent = STATIONS[index].name;
     
-    // Si está encendida, cambiamos el link y reproducimos
     if (playing) {
         status.textContent = "Conectando…";
+        status.classList.add("loading");
+        
+        audio.pause();
         audio.src = STATIONS[index].stream; 
-        audio.load(); // Fuerza al navegador a reconocer el nuevo link
+        audio.load(); 
+        
         audio.play().catch(e => {
-            status.textContent = "Error de conexión";
-            playing = false;
+            if (e.name !== 'AbortError') {
+                status.textContent = "Sin señal";
+                status.classList.remove("loading");
+                playing = false;
+                power.classList.remove("playing");
+            }
         });
     }
 }
 
-// Controladores de eventos
 document.getElementById("prev").onclick = () => {
     index = (index - 1 + STATIONS.length) % STATIONS.length;
     updateUI();
@@ -52,36 +59,29 @@ power.onclick = () => {
     if (!playing) {
         playing = true;
         power.classList.add("playing");
-        status.textContent = "Conectando…";
-        
-        // Asignamos el link justo antes de tocar
-        audio.src = STATIONS[index].stream;
-        audio.load();
-        
-        audio.play()
-            .then(() => status.textContent = "♫ Reproduciendo")
-            .catch(() => {
-                status.textContent = "Error de conexión";
-                playing = false;
-                power.classList.remove("playing");
-            });
+        updateUI();
     } else {
         playing = false;
         power.classList.remove("playing");
         audio.pause();
-        audio.src = ""; // Liberamos la memoria de la RAM al apagar
+        audio.src = ""; 
         status.textContent = "";
+        status.classList.remove("loading");
     }
 };
 
-// Manejo de errores de audio (Lo que faltaba)
+audio.onplaying = () => {
+    status.textContent = "";
+    status.classList.remove("loading");
+};
+
 audio.onerror = () => {
-    if (playing) {
-        status.textContent = "Estación fuera de línea";
+    if (playing && audio.src !== "") {
+        status.textContent = "Sin señal";
+        status.classList.remove("loading");
         power.classList.remove("playing");
         playing = false;
     }
 };
 
-// Inicialización
 updateUI();
