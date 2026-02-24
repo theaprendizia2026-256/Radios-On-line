@@ -1,2 +1,2 @@
 # Radios on-line
-Radios Minimalista 
+Radio Minimalista 
