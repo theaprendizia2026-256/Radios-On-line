@@ -16,7 +16,7 @@ Diseñada bajo los principios de la **Ingeniería de Invisibilidad**: interfaz m
 
 Este proyecto se gestiona íntegramente en la nube:
 
-1. **Edición:** Realizada directamente en el editor web de GitHub.(Github.dev)
+1. **Edición:** Realizada directamente en el editor web de GitHub.(https://github.dev/github/dev))
 2. **Sincronización:** El repositorio se conecta automáticamente a Vercel.(https://vercel.com/)
 3. **Despliegue:** Cada *commit* a la rama principal dispara un despliegue optimizado en el Edge Network.
 
