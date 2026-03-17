@@ -5,3 +5,18 @@
 Thumbs.db
 
 *.log
+
+
+# Vercel y Entornos
+
+.vercel/
+
+.env
+
+.env.*.local
+
+
+# Editores
+.vscode/
+.idea/
+*.swp
