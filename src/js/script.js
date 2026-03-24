@@ -10,7 +10,8 @@ const STATIONS = [
     { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
     { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
-    { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" } 
+    { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
+    { name: "0R - Bach Classical, Renania, Alemania", frequency: 99.2, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
 ];
 
 let index = 0;
