@@ -9,6 +9,7 @@ const STATIONS = [
     { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
     { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
+    { name: "Classical 古典音樂台 FM 97.7, Taiwan, Republic Of China.", frequency: 97.7, stream: "http://59.120.88.155:8000/live.mp3" },
     { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
     { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 99.2, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
