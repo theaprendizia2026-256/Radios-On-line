@@ -12,6 +12,7 @@ const STATIONS = [
     { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
     { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 99.2, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
+    { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 99.5, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
 ];
 
 let index = 0;
