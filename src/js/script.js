@@ -7,13 +7,16 @@ const STATIONS = [
     { name: "Radio Italia anni 60, Milán, Italia", frequency: 92.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
     { name: "Radio Swiss Classic, Basilea, Suiza", frequency: 93.3, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
     { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
+    { name: "Radio Classicnl Soundtracks, Utrecht, The Netherlands", frequency: 94.9, stream: "https://classic.nl/streams/?s=soundtracks" },
     { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
     { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 97.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
     { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
     { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
+    { name: "0R - Piano Classical, Berlin, Germany", frequency: 89.9, stream: "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26" },
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 99.2, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
     { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 99.5, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
+    
 ];
 
 let index = 0;
