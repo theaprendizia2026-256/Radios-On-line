@@ -8,6 +8,7 @@ const STATIONS = [
     { name: "Radio Swiss Classic, Basilea, Suiza", frequency: 93.3, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
     { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 94.7, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
     { name: "Radio EBS | Movie Soundtracks, Romania", frequency: 94.9, stream: "https://azura.ebsmedia.ro/listen/movies/movies128.mp3" },
+    { name: "Radio Hearme Movie Soundtracks, The United Kingdom", frequency: 95.1, stream: "https://radio.hearme.fm:8074/stream" },
     { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
     { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 97.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
