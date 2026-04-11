@@ -1,7 +1,15 @@
 const STATIONS = [
     { name: "Radio Klassik Stephansdom, Viena, Austria", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
-    { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
+    { name: "Radio Sacred Music, Iowa, EE.UU.", frequency: 88.3, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
+    { name: "Radio Swiss Classic, Basilea, Suiza", frequency: 88.5, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
+    { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 88.9, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
+    { name: "Radio Classical Music, Moscú, Rusia", frequency: 89.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
+    { name: "Classic FM, Londres, Reino Unido", frequency: 89.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
+    { name: "0R - Piano Classical, Berlin, Germany", frequency: 89.6, stream: "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26" },
+    { name: "0R - Bach Classical, Renania, Alemania", frequency: 89.8, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
+    { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 90.1, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 88.7, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 89.9, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
+    { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 97.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 91.5, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
     { name: "Radio Italia anni 60, Milán, Italia", frequency: 92.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
     { name: "Radio Always Elvis, Randers, Denmark", frequency: 92.4, stream: "https://radioserver.dk/alwayselvisradio" },
@@ -9,15 +17,6 @@ const STATIONS = [
     { name: "Radio EBS | Movie Soundtracks, Romania", frequency: 94.9, stream: "https://azura.ebsmedia.ro/listen/movies/movies128.mp3" },
     { name: "Radio Movie Soundtracks Hits, EE.UU.", frequency: 95.1, stream: "https://strm112.1.fm/moviesoundtracks_mobile_mp3" },
     { name: "BBC World Service, Londres, Reino Unido", frequency: 96.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
-    { name: "Radio Sacred Music, Iowa, EE.UU.", frequency: 96.5, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
-    { name: "Radio Swiss Classic, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
-    { name: "CapRadio Music, Sacramento CA, EE.UU.", frequency: 97.5, stream: "https://18433.live.streamtheworld.com/KXPRAAC.aac" },
-    { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 97.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
-    { name: "Radio Classical Music, Moscú, Rusia", frequency: 98.1, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/38" }, 
-    { name: "Classic FM, Londres, Reino Unido", frequency: 98.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
-    { name: "0R - Piano Classical, Berlin, Germany", frequency: 89.9, stream: "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26" },
-    { name: "0R - Bach Classical, Renania, Alemania", frequency: 99.2, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
-    { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 99.5, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
 ];
 
 let index = 0;
