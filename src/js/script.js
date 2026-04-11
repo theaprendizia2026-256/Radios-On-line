@@ -7,7 +7,7 @@ const STATIONS = [
     { name: "Classic FM, Londres, Reino Unido", frequency: 89.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" },
     { name: "0R - Piano Classical, Berlin, Germany", frequency: 89.6, stream: "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26" },
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 89.8, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
-    { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 90.1, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },  
+    { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 90.1, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
     { name: "Classical Music Network, Monterrey, México", frequency: 90.3, stream: "https://securestreams7.autopo.st/?uri=http://s3.voscast.com:10018/stream" },
     { name: "Pop Classical Music, Moscú, Rusia", frequency: 90.5, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/97" },
     { name: "Classical Calm by King FM, Seattle, Estados Unidos", frequency: 90.7, stream: "https://classicalking.streamguys1.com/evergreen-aac-128k" },
