@@ -1,34 +1,21 @@
-Manifiesto de Contribución: Arquitectura de Radios Online
+Contribution Manifesto: Online Radio Architecture
 
-Este repositorio es un espacio de alta exigencia para el desarrollo de entornos 
-bajo Ingeniería de Optimización de Recursos Críticos.
+This repository is a demanding space for developing environments under Critical Resource Optimization Engineering.
 
-Principio Rector: Mínimos Recursos, Máxima Eficiencia
-Si usted desea contribuir, debe aceptar que el software debe ser potente en su núcleo pero silencioso y liviano 
-en su ejecución. Programamos para la resiliencia en cualquier hardware, optimizando cada ciclo de CPU.
+Guiding Principle: Minimal Resources, Maximum Efficiency. If you wish to contribute, you must accept that the software must be powerful at its core but quiet and lightweight at runtime. We program for resilience on any hardware, optimizing every CPU cycle.
 
-1. Prohibición de Abstracciones Innecesarias
-Anti-Frameworks: Queda estrictamente prohibido el uso de React, Vue, Angular o cualquier librería
-que introduzca un runtime pesado. Se exige Vanilla JavaScript (ECMAScript Moderno) puro.
+Prohibition of Unnecessary Abstractions and Anti-Frameworks: The use of React, Vue, Angular, or any library that introduces a heavy runtime is strictly prohibited. Pure Vanilla JavaScript (Modern ECMAScript) is required.
+CSS Architecture: Preprocessors, Bootstrap, Tailwind, or external libraries are not allowed. The design must be based on optimized native CSS (Flexbox/Grid) without dependencies.
 
-Arquitectura CSS: No se permiten preprocesadores, Bootstrap, Tailwind o librerías externas. 
-El diseño debe basarse en CSS nativo optimizado (Flexbox/Grid) sin dependencias.
+Vector Geometry: Visual assets must be pure geometry SVGs integrated into the code. Any bitmap format (PNG/JPG) is rejected due to its scalability inefficiency and file size.
 
-Geometría Vectorial: Los activos visuales deben ser SVG de geometría pura integrados en el código.
-Se rechaza cualquier formato de mapa de bits (PNG/JPG) por su ineficiencia en el escalado y peso.
+Engineering Standards: Elimination of Technical Debt: If a component, line of code, or UI element does not have a demonstrably critical function, it will be removed. Minimalism is the ultimate optimization of functionality.
+Invisibility Engineering: The software should present an absolute external simplicity that conceals superior internal engineering based on pure logic and automation.
 
-2. Estándares de Ingeniería
-Eliminación de Deuda Técnica: Si un componente, línea de código o elemento de UI no posee una función crítica demostrable,
-será eliminado. El minimalismo es la optimización máxima de la funcionalidad.
+Pull Request (PR) Protocol: Resource Audit: Verify that your change does not increase load latency or memory consumption.
+Technical Justification: Document why your solution is the lightest possible for the problem at hand.
 
-Ingeniería de Invisibilidad: El software debe presentar una simplicidad externa absoluta que oculte una 
-ingeniería interna superior basada en lógica pura y automatización.
+Traceability: Update the CHANGELOG.md file strictly following semantic versioning.
 
-3. Protocolo de Pull Request (PR)
-Auditoría de Recursos: Verifique que su cambio no incremente la latencia de carga ni el consumo de memoria.
+"Visual elegance is an indicator that the codebase is robust and scalable."
 
-Justificación Técnica: Documente por qué su solución es la más liviana posible para el problema planteado.
-
-Trazabilidad: Actualice el CHANGELOG.md siguiendo estrictamente el versionado semántico.
-
-"La elegancia visual es el indicador de que el código base es sólido y escalable."
