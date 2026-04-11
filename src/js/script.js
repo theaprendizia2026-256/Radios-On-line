@@ -8,7 +8,7 @@ const STATIONS = [
     { name: "0R - Piano Classical, Berlin, Germany", frequency: 89.6, stream: "https://0nlineradio.radioho.st/classical-classical-piano?ref=radio-browser26" },
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 89.8, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
     { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 90.1, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },  
-    { name: "Classical Music Network, Monterrey, México", frequency: 90.3, stream: "https://securestreams7.autopo.st/?uri=http://s3.voscast.com:10018/stream" },
+    { name: "Classical Music Network, Monterrey, México", frequency: 90.3, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.2, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 96.5, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
     { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 96.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
