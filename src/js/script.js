@@ -16,7 +16,7 @@ const STATIONS = [
     { name: "Splash - Classical, Zaragoza, España", frequency: 91.3, stream: "https://ais-sa2.cdnstream1.com/2208_128.mp3" },
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.2, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 96.5, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
-    { name: "Chinese Classical Music, Beijing, Republic of China.", frequency: 96.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
+    { name: "Chinese Classical Music, Beijing, China.", frequency: 96.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.9, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
     { name: "Radio Italia anni 60, Milán, Italia", frequency: 97.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
     { name: "Radio Always Elvis, Randers, Denmark", frequency: 97.3, stream: "https://radioserver.dk/alwayselvisradio" },
