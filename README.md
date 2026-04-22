@@ -30,12 +30,3 @@ Acceda a la URL de producción: https://radios-on-line.vercel.app/
 ### Estatus
 
 **Estable (v1.0)**.
-graph LR
-    A[Usuario abre PWA] --> B{¿Power On?}
-    B -- No --> C[Estado Standby]
-    B -- Sí --> D[Cargar STATIONS desde JS]
-    D --> E[Conectar Audio Stream]
-    E --> F[Reproducción Activa]
-    F --> G[¿Cambio de Dial?]
-    G -- Sí --> D
-    G -- No --> F
