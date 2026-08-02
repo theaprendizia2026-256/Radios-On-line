@@ -90,6 +90,7 @@ En este capítulo se detalla la arquitectura lógica y funcional del sistema, or
 
 ### 1. BPMN (Diagrama de Procesos)
 Describe el flujo de trabajo del software desde que se carga la interfaz hasta la emisión del sonido. Es un proceso lineal que minimiza los puntos de decisión para acelerar la ejecución.
+
 [![BPMN](https://res.cloudinary.com/deqk2tmer/image/upload/v1785711557/BPMN_glytgu.png)](https://res.cloudinary.com/deqk2tmer/image/upload/v1785711557/BPMN_glytgu.png)
 
 ### 2. Casos de Uso
