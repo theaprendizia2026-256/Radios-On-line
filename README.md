@@ -98,7 +98,7 @@ Define las interacciones esenciales entre el usuario y la radio. Se reduce a tre
 * Sintonización: Navegación por el array de emisoras.
 * Gestión de Energía: Activación/Desactivación del motor de audio.
 * Instalación: Anclaje del contenedor al dispositivo (PWA).
-![Casos de Uso](img/Casos%20de%20Uso.png)
+![Casos de Uso](https://res.cloudinary.com/deqk2tmer/image/upload/v1785712802/Casos_de_Uso_cho6fh.png)
 
 ### 3. Componentes
 Representa la estructura de archivos y cómo interactúan. Al no usar frameworks, la arquitectura es de acoplamiento simple:
