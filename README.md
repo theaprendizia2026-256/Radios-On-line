@@ -105,7 +105,7 @@ Representa la estructura de archivos y cómo interactúan. Al no usar frameworks
 * Capa de Presentación: HTML5 y CSS3 (Diseño Vectorial).
 * Capa de Lógica: Vanilla JavaScript (Motor de la aplicación).
 * Capa de Datos: Objeto JSON interno (URLs de Radio Garden/Radio-Browser).
-![Componentes](img/Componentes.png)
+![Componentes](https://res.cloudinary.com/deqk2tmer/image/upload/v1785712803/Componentes_tyxyh9.png)
 
 ### 4. Modelo de Datos
 Dada la naturaleza del proyecto, no existe una base de datos relacional externa. El modelo reside en una estructura de datos constante dentro del código, lo que garantiza velocidad de lectura cero.
@@ -116,7 +116,7 @@ La planificación se centró en un Time-boxing de 7 días, donde la velocidad de
 
 ### 1. Cronograma (Sprint de 7 días)
 El desarrollo se dividió en hitos diarios para asegurar la integración continua en Vercel.
-![cronograma](img/cronograma.png)
+![cronograma](https://res.cloudinary.com/deqk2tmer/image/upload/v1785712746/cronograma_bwbazs.png)
 
 ### 2. Product Backlog
 Organizado por prioridad crítica para mantener la simplicidad del sistema:
@@ -132,7 +132,7 @@ Se ha implementado una arquitectura de Cliente Delgado (Thin Client) sobre una e
 * Origen: Servidores de streaming externos (obtenidos mediante ingeniería inversa).
 * Procesamiento: Lógica en el cliente (navegador) mediante JavaScript.
 * Despliegue: Edge Network de Vercel para minimizar la latencia de carga inicial.
-![Arquitectura](img/Especificación%20de%20Arquitectura.png)
+![Arquitectura](https://res.cloudinary.com/deqk2tmer/image/upload/v1785712804/Especificaci%C3%B3n_de_Arquitectura_s4m1c7.png)
 
 ### 2. Descripción de las Tecnologías
 Para cumplir con el objetivo de Optimización, se seleccionaron tecnologías de estándar abierto:
