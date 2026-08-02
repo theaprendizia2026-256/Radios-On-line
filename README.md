@@ -109,7 +109,7 @@ Representa la estructura de archivos y cómo interactúan. Al no usar frameworks
 
 ### 4. Modelo de Datos
 Dada la naturaleza del proyecto, no existe una base de datos relacional externa. El modelo reside en una estructura de datos constante dentro del código, lo que garantiza velocidad de lectura cero.
-![Modelo de Datos](img/Modelo%20de%20Datos.png)
+![Modelo de Datos](https://res.cloudinary.com/deqk2tmer/image/upload/v1785712808/Modelo_de_Datos_tjw3xq.png)
 
 ## VII. Planificación del Proyecto
 La planificación se centró en un Time-boxing de 7 días, donde la velocidad de ejecución fue priorizada sobre la burocracia documental, permitiendo pasar de la idea al despliegue en tiempo récord.
