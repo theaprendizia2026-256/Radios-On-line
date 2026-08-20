@@ -9,58 +9,121 @@
   --text: #e8e8e8;
   --muted: #8a8a8a;
   --btn: #1a1a1a;
-  --btn-hover: #2a2a2a;
-  --btn-active: #3a3a3a;
+  --btn-hover: #252525;
+  --btn-active: #333333;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   user-select: none;
   overflow: hidden;
 }
 
+/* CARRUSEL 3D (6 CATEGORÍAS) */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+
+.box {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform: rotateY(0deg);
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(210px);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  background: rgba(22, 22, 22, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  cursor: pointer;
+}
+
+.card .icon {
+  width: 34px;
+  height: 34px;
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.card .title {
+  font-size: 12px;
+  font-weight: 500;
+  color: #cccccc;
+  text-align: center;
+}
+
+/* REPRODUCTOR */
 .radio {
   width: 100%;
   max-width: 320px;
-  padding: 0 24px;
+  padding: 20px 24px 0 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
+  gap: 18px;
 }
 
 .frequency {
-  font-size: 85px;
-  font-weight: 300;
-  letter-spacing: -0.02em;
+  font-size: 68px;
+  font-weight: 200;
   font-variant-numeric: tabular-nums;
 }
 
 .station {
-  font-size: 14px;
+  font-size: 13px;
   color: var(--muted);
   text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  max-width: 4000px;
+  max-width: 280px;
+  height: 18px;
 }
 
 .controls {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 28px;
 }
 
 .btn {
-  width: 56px;
-  height: 56px;
+  width: 54px;
+  height: 54px;
   border: none;
   border-radius: 50%;
   background: var(--btn);
@@ -69,52 +132,52 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: .15s;
+  transition: background 0.2s, transform 0.1s;
 }
 
 .btn:hover {
   background: var(--btn-hover);
-  transform: scale(1.05);
 }
 
 .btn:active {
   background: var(--btn-active);
-  transform: scale(.95);
+  transform: scale(0.95);
 }
 
 .btn-power {
-  width: 64px;
-  height: 64px;
+  width: 62px;
+  height: 62px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .btn-power.playing {
-  background: #fff;
-  color: #000;
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
 }
 
 .status {
-  font-size: 14px;
+  font-size: 12px;
   color: var(--muted);
   min-height: 16px;
-  opacity: .7;
 }
 
 svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .btn-power svg {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
 }
 
 @keyframes pulse {
-  0% { opacity: 0.4; }
-  50% { opacity: 1; }
-  100% { opacity: 0.4; }
+  0% { opacity: 0.3; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0.3; }
 }
 
 .loading {
-  animation: pulse 1.5s infinite ease-in-out;
+  animation: pulse 1.4s infinite ease-in-out;
 }
