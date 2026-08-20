@@ -2,6 +2,21 @@
 
 Todos los cambios notables en este proyecto serán documentados en este archivo.
 
+## [2.0.0] - 2026-08-20
+
+### 🚀 Añadido
+- **Carrusel 3D de 6 Categorías:** Nueva arquitectura geométrica a 60° (Música Clásica, Audiolibros, Noticias, Podcasts, Lo-Fi / Ambient y Miscelánea).
+- Controles de navegación táctil (*swipe*) optimizados para dispositivos móviles.
+
+### ⚡ Cambios y Mejoras
+- **Corte de Audio Inmediato:** Silenciamiento operativo completo al rotar entre categorías para evitar solapamiento de señales y consumo innecesario de datos de fondo.
+- **Refactorización de Arquitectura:** Migración de estructura de carpetas anidadas a **estructura plana** dentro de `src/` (`index.html`, `style.css`, `script.js`).
+- Optimización de despliegue en Vercel y compatibilidad modular para entornos como CodePen.
+
+### 🔧 Correcciones
+- Solucionado el fallo de renderizado de CSS/JS en entornos de producción (GitHub / Vercel) provocado por rutas relativas en subcarpetas.
+
+  
 ## [1.0.1] - 2026-03-17
 
 ### Changed
