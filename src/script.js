@@ -26,7 +26,7 @@ const CATEGORIES_STATIONS = {
   ],
   2: [ // Noticias
     { name: "BBC World Service, Londres, Inglaterra", frequency: 98.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
-    { name: "RFI Español", frequency: 99.1, stream: "https://stream.rfi.fr/rfienespagnol/all/rfienespagnol-64k.mp3" }
+    { name: "RFI Español", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
   ],
   3: [ // Podcasts
     { name: "Emisora por configurar", frequency: 100.0, stream: "" }
