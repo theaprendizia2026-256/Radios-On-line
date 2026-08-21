@@ -1,6 +1,8 @@
 // LISTAS CONFIGURABLES POR CATEGORÍA
 const CATEGORIES_STATIONS = {
   0: [ // Música Clásica
+    { name: "Radio Sacred Music, Iowa, EE.UU.", frequency: 88.3, stream: "https://das-edge15-live365-dal02.cdnstream.com/a39922" },
+    { name: "Radio Klassik Stephansdom, Viena, Austria", frequency: 88.1, stream: "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3" },
     { name: "Radio Swiss Classic", frequency: 88.1, stream: "https://stream.srg-ssr.ch/m/rsc_de/mp3_128" },
     { name: "Classic FM", frequency: 89.4, stream: "https://media-ice.musicradio.com/ClassicFMMP3" }
   ],
