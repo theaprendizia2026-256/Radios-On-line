@@ -27,7 +27,7 @@ const CATEGORIES_STATIONS = {
   2: [ // Noticias
     { name: "BBC World Service, Londres, Inglaterra", frequency: 98.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
     { name: "RFI Español, Francia", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
-    { name: "Radio Sputnik, Moscow, The Russian Federation", frequency: 98.7, stream: "https://icecast-rian.cdnvideo.ru/voicerus" },
+    { name: "Radio Sputnik, Moscow, Rusia", frequency: 98.7, stream: "https://icecast-rian.cdnvideo.ru/voicerus" },
     { name: "RNE - Radio Nacional de España", frequency: 98.5, stream: "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high" },
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
     { name: "Radio Bio Bio, Chile", frequency: 98.9, stream: "https://unlimited3-cl.dps.live/biobiosantiago/mp3/icecast.audio" },
