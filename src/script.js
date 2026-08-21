@@ -25,12 +25,13 @@ const CATEGORIES_STATIONS = {
     { name: "Emisora por configurar", frequency: 90.0, stream: "" }
   ],
   2: [ // Noticias
-    { name: "BBC World Service, Londres, Inglaterra", frequency: 98.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
-    { name: "RFI Español, Francia", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
-    { name: "Radio Sputnik, Moscow, Rusia", frequency: 98.7, stream: "https://icecast-rian.cdnvideo.ru/voicerus" },
-    { name: "RNE - Radio Nacional de España", frequency: 98.5, stream: "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high" },
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
     { name: "Radio Bio Bio, Chile", frequency: 98.9, stream: "https://unlimited3-cl.dps.live/biobiosantiago/mp3/icecast.audio" },
+    { name: "RFI Español, Francia", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
+    { name: "RNE - Radio Nacional de España", frequency: 98.5, stream: "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high" },
+    { name: "RNE Radio 3, España", frequency: 96.9, stream: "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8" },
+    { name: "Radio Sputnik, Moscow, Rusia", frequency: 98.7, stream: "https://icecast-rian.cdnvideo.ru/voicerus" },
+    { name: "BBC World Service, Londres, Inglaterra", frequency: 98.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
   ],
   3: [ // Podcasts
     { name: "Emisora por configurar", frequency: 100.0, stream: "" }
@@ -39,7 +40,6 @@ const CATEGORIES_STATIONS = {
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.2, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 96.5, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
-    { name: "RNE Radio 3, España", frequency: 96.9, stream: "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8" },
   ],
   5: [ // Miscelánea
     { name: "Radio Always Elvis, Randers, Denmark", frequency: 97.3, stream: "https://radioserver.dk/alwayselvisradio" },
