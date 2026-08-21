@@ -22,8 +22,8 @@ const CATEGORIES_STATIONS = {
     { name: "Radio Movie Soundtracks Hits, EE.UU.", frequency: 98.1, stream: "https://strm112.1.fm/moviesoundtracks_mobile_mp3" },
   ],
   1: [ // Audiolibros
-    { name: "El Inamovible - Baldomero Lillo", frequency: "Cuento Chileno", stream: "./src/audios.mp3/inamible.mp3"},
-    { name: "La Ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "Leyenda Española",  stream: "./src/audios.mp3/la Ajorca de Oro.mp3" }
+    { name: "El Inamovible - Baldomero Lillo", frequency: "MP3", stream: "./src/audios.mp3/Inamible.mp3"},
+    { name: "La Ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "MP3", stream: "./src/audios.mp3/La Ajorca de Oro.mp3" }
   ],
   2: [ // Noticias
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
@@ -68,7 +68,9 @@ function updateStationDisplay() {
   const stations = getActiveStations();
   if (stationIndex >= stations.length) stationIndex = 0;
   const current = stations[stationIndex];
-  freq.textContent = current.frequency.toFixed(1);
+  
+  // Si la frecuencia es un número le aplica .toFixed(1), si es texto ("MP3") lo muestra tal cual
+  freq.textContent = typeof current.frequency === 'number' ? current.frequency.toFixed(1) : current.frequency;
   nameEl.textContent = current.name;
 }
 
