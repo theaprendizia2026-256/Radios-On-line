@@ -38,7 +38,8 @@ const CATEGORIES_STATIONS = {
   4: [ // Lo-Fi / Ambient
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.2, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 96.5, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
-    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.9, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
+    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
+    { name: "RNE Radio 3, España", frequency: 96.9, stream: "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8" },
   ],
   5: [ // Miscelánea
     { name: "Radio Always Elvis, Randers, Denmark", frequency: 97.3, stream: "https://radioserver.dk/alwayselvisradio" },
