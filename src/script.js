@@ -29,12 +29,11 @@ const CATEGORIES_STATIONS = {
     { name: "Radio Bio Bio, Chile", frequency: 98.9, stream: "https://unlimited3-cl.dps.live/biobiosantiago/mp3/icecast.audio" },
     { name: "RFI Español, Francia", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
     { name: "RNE - Radio Nacional de España", frequency: 98.5, stream: "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high" },
-    { name: "RNE Radio 3, España", frequency: 96.9, stream: "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8" },
     { name: "Radio Sputnik, Moscow, Rusia", frequency: 98.7, stream: "https://icecast-rian.cdnvideo.ru/voicerus" },
     { name: "BBC World Service, Londres, Inglaterra", frequency: 98.3, stream: "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service" },
   ],
   3: [ // Podcasts
-    { name: "Emisora por configurar", frequency: 100.0, stream: "" }
+    { name: "RNE Radio 3, España", frequency: 96.9, stream: "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r3_main.m3u8" },
   ],
   4: [ // Lo-Fi / Ambient
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.2, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
