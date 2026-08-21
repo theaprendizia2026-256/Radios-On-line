@@ -26,6 +26,7 @@ const CATEGORIES_STATIONS = {
     { name: "La ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "Leyenda", stream: "./audios/ajorca.mp3"},
     { name: "La miel silvestre - Horacio Quiroga", frequency: "Cuento", stream: "./audios/mielsilvestre.mp3"},
     { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "./audios/elhombre.mp3"},
+    { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "./audios/elhombre(teatro).mp3"},
   ],
   2: [ // Noticias
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
