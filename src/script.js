@@ -45,8 +45,7 @@ const CATEGORIES_STATIONS = {
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
   ],
   5: [ // Miscelánea
-    { name: "El Inamovible - Baldomero Lillo", frequency: "Cuento", stream: "audios/inamible.mp3" },
-    { name: "La Ajorca de Oro - Bécquer", frequency: "Leyenda", stream: "audios/ajorca.mp3" }
+    
   ]
 };
 
