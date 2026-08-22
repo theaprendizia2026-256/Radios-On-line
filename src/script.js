@@ -45,9 +45,8 @@ const CATEGORIES_STATIONS = {
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
     { name: "Adroit Jazz Underground, New York, EEUU", frequency: 96.2, stream: "https://icecast.walmradio.com:8443/jazz_opus" },
     { name: "Bossa Jazz, Brasilea, Brasil", frequency: 96.8, stream: "https://centova5.transmissaodigital.com:20104/live" }, 
-    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
-    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
-    { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
+    { name: "Sunset Chillout Lounge, New York, EEUU", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
+    { name: "Music for sleep, Berlin, Germany", frequency: 96.8, stream: "https://0nlineradio.radioho.st/classical-classical-music-for-sleep?ref=radio-browser26" },
   ],
   5: [ // Miscelánea
     { name: "Radio Always Elvis, Randers, Denmark", frequency: 97.3, stream: "https://radioserver.dk/alwayselvisradio" },
