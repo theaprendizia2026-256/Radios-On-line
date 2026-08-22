@@ -17,9 +17,8 @@ const CATEGORIES_STATIONS = {
     { name: "KUSC Classical FM 91.1, Los Ángeles, EE.UU", frequency: 91.1, stream: "https://23023.live.streamtheworld.com/KUSCMP96_SC" },
     { name: "Splash - Classical, Zaragoza, España", frequency: 91.3, stream: "https://ais-sa2.cdnstream1.com/2208_128.mp3" },
     { name: "Chinese Classical Music, Beijing, China.", frequency: 96.7, stream: "https://radio.chinesemusicworld.com/chinesemusic.mp3" },
-    { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 97.5, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/395" },
-    { name: "Radio EBS | Movie Soundtracks, Romania", frequency: 97.9, stream: "https://azura.ebsmedia.ro/listen/movies/movies128.mp3" },
-    { name: "Radio Movie Soundtracks Hits, EE.UU.", frequency: 98.1, stream: "https://strm112.1.fm/moviesoundtracks_mobile_mp3" },
+    { name: "Radio Ennio Morricone, Moscú, Rusia", frequency: 97.5, stream: "https://srv01.gpmradio.ru:8443/stream/pro/aac/64/395" },
+    { name: "Radio EBS | Movie Soundtracks, Rumania", frequency: 97.9, stream: "https://azura.ebsmedia.ro/listen/movies/movies128.mp3" },
   ],
   1: [ // Audiolibros
     { name: "El inamible - Baldomero Lillo", frequency: "Cuento", stream: "./audios/inamible.mp3"},
@@ -43,6 +42,7 @@ const CATEGORIES_STATIONS = {
   4: [ // Lo-Fi / Ambient
     { name: "Radio SomaFM Groove Salad, SF, EE.UU", frequency: 96.0, stream: "https://ice5.somafm.com/groovesalad-128-mp3" },
     { name: "Radio SomaFM Drone Zone, SF, EE.UU.", frequency: 96.1, stream: "https://ice5.somafm.com/dronezone-128-mp3" },
+    { name: "Radio Movie Soundtracks Hits, EE.UU.", frequency: 98.1, stream: "https://strm112.1.fm/moviesoundtracks_mobile_mp3" },
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.3, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
     { name: "Adroit Jazz Underground, New York, EEUU", frequency: 96.5, stream: "https://icecast.walmradio.com:8443/jazz_opus" },
     { name: "Bossa Jazz, Brasilea, Brasil", frequency: 96.6, stream: "https://centova5.transmissaodigital.com:20104/live" }, 
