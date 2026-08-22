@@ -22,9 +22,10 @@ const CATEGORIES_STATIONS = {
   ],
   1: [ // Audiolibros
     { name: "El inamible - Baldomero Lillo", frequency: "Cuento", stream: "./audios/inamible.mp3"},
+    { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "./audios/elhombre.mp3"},
+    { name: "El Colocolo - Manuel Rojas", frequency: "Cuento", stream: "./audios/el_colocolo.mp3"},
     { name: "La ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "Leyenda", stream: "./audios/ajorca.mp3"},
     { name: "La miel silvestre - Horacio Quiroga", frequency: "Cuento", stream: "./audios/mielsilvestre.mp3"},
-    { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "./audios/elhombre.mp3"},
     { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "./audios/elhombre(teatro).mp3"},
   ],
   2: [ // Noticias
