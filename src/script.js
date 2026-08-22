@@ -45,7 +45,8 @@ const CATEGORIES_STATIONS = {
     { name: "Radio Swiss Jazz, Basilea, Suiza", frequency: 96.8, stream: "https://stream.srg-ssr.ch/m/rsj/mp3_128" },
   ],
   5: [ // Miscelánea
-    
+    { name: "Radio Always Elvis, Randers, Denmark", frequency: 97.3, stream: "https://radioserver.dk/alwayselvisradio" },
+    { name: "Radio Italia anni 60, Milán, Italia", frequency: 97.1, stream: "https://ice12.fluidstream.net/ria60_mi.aac" },
   ]
 };
 
