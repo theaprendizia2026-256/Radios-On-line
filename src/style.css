@@ -35,6 +35,10 @@ body {
   justify-content: center;
   align-items: center;
   perspective: 1000px;
+  /*Activa el puntero tipo "mano para agarrar" */
+  cursor: grab;
+  /*Desactiva el arrastre fantasma de imágenes o selecciones predeterminadas de los navegadores*/
+  user-select: none;
 }
 
 .box {
