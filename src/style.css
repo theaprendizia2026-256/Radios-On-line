@@ -39,6 +39,8 @@ body {
   cursor: grab;
   /*Desactiva el arrastre fantasma de imágenes o selecciones predeterminadas de los navegadores*/
   user-select: none;
+  /* RECOMENDADO: Bloquea el scroll horizontal nativo para no colisionar con el drag */
+  touch-action: pan-y;
 }
 
 .box {
@@ -78,6 +80,9 @@ body {
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
   cursor: pointer;
+  /* AGREGADO: Evita que el navegador intente 'arrastrar la imagen/texto' al hacer clic sostenido con el mouse */
+  user-select: none;
+  -webkit-user-drag: none;
 }
 
 .card .icon {
