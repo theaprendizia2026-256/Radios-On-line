@@ -156,6 +156,9 @@ function rotateCarousel(dir) {
 }
 
 let startX = 0;
+let isDragging = false;
+
+// 1. TÁCTIL (Celular)
 carousel.addEventListener('touchstart', (e) => { 
   startX = e.touches[0].clientX; 
 }, { passive: true });
@@ -165,5 +168,32 @@ carousel.addEventListener('touchend', (e) => {
   if (startX - endX > 45) rotateCarousel(1);
   else if (endX - startX > 45) rotateCarousel(-1);
 }, { passive: true });
+
+// 2. ARRASTRE CON MOUSE (Web / Drag)
+carousel.addEventListener('mousedown', (e) => {
+  isDragging = true;
+  startX = e.clientX;
+  carousel.style.cursor = 'grabbing';
+});
+
+window.addEventListener('mouseup', (e) => {
+  if (!isDragging) return;
+  isDragging = false;
+  carousel.style.cursor = 'grab';
+  
+  let endX = e.clientX;
+  if (startX - endX > 45) rotateCarousel(1);
+  else if (endX - startX > 45) rotateCarousel(-1);
+});
+
+// 3. RUEDA DEL MOUSE (Web / Scroll Wheel & Trackpad)
+carousel.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  if (e.deltaY > 0 || e.deltaX > 0) {
+    rotateCarousel(1);
+  } else if (e.deltaY < 0 || e.deltaX < 0) {
+    rotateCarousel(-1);
+  }
+}, { passive: false });
 
 updateStationDisplay();
