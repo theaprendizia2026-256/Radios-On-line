@@ -31,6 +31,7 @@ const CATEGORIES_STATIONS = {
   2: [ // Noticias
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
     { name: "Radio Bio Bio, Chile", frequency: 98.9, stream: "https://unlimited3-cl.dps.live/biobiosantiago/mp3/icecast.audio" },
+    { name: "ADN Radio, Santiago, Chile", frequency: 98.3, stream: "https://27343.live.streamtheworld.com/ADN.mp3?dist=onlineradiobox" },
     { name: "Radio El Conquistador, Chile", frequency: 98.6, stream: "https://stream10.usastreams.com/9314/stream/" },
     { name: "RFI Español, Francia", frequency: 98.4, stream: "https://rfienespagnol64k.ice.infomaniak.ch/rfienespagnol-64.mp3" },
     { name: "RNE - Radio Nacional de España", frequency: 98.5, stream: "https://dispatcher.rndfnk.com/crtve/rne5/lcg/mp3/high" },
