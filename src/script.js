@@ -28,7 +28,7 @@ const CATEGORIES_STATIONS = {
     { name: "La miel silvestre - Horacio Quiroga", frequency: "Cuento", stream: "./audios/mielsilvestre.mp3"},
     { name: "El vaso de leche - Manuel Rojas", frequency: "RadioTeatro", stream: "./audios/el_vaso_de_leche.mp3"},
     { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "./audios/elhombre(teatro).mp3"},
-    { name: "El chiflon del diablo- Baldomero Lillo", frequency: "RadioTeatro", stream: "./audios/el_chiflon_del_diablo.mp3"}
+    { name: "El chiflon del diablo - Baldomero Lillo", frequency: "RadioTeatro", stream: "./audios/el_chiflon_del_diablo.mp3"}
   ],
   2: [ // Noticias
     { name: "Radio Cooperativa, Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
