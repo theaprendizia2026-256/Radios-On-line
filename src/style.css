@@ -125,12 +125,38 @@ body {
   text-align: center;
 }
 
-.station {
-  font-size: 14px;
+/* ESTRUCTURA DE TEXTO EN DOS LÍNEAS Y AIRE CON LOS BOTONES */
+.station-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  max-width: 280px;
+  margin-bottom: 12px; /* Otorga el aire necesario antes de la botonera */
+}
+
+.station-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text);
+  text-align: center;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; /* Evita que los nombres largos deformen la interfaz */
+}
+
+.station-subtitle {
+  font-size: 13px;
+  font-weight: 400;
   color: var(--muted);
   text-align: center;
-  max-width: 280px;
-  height: 18px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .controls {
