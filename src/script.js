@@ -83,9 +83,18 @@ function updateStationDisplay() {
   if (stationIndex >= stations.length) stationIndex = 0;
   const current = stations[stationIndex];
   
-  // Si la frecuencia es un número le aplica .toFixed(1), si es texto ("MP3") lo muestra tal cual
-  freq.textContent = typeof current.frequency === 'number' ? current.frequency.toFixed(1) : current.frequency;
+  const isNumber = typeof current.frequency === 'number';
+
+  // Si es número muestra decimales, si es texto lo muestra tal cual
+  freq.textContent = isNumber ? current.frequency.toFixed(1) : current.frequency;
   nameEl.textContent = current.name;
+
+  // Aplica o quita la clase dinámica según corresponda
+  if (!isNumber) {
+    freq.classList.add('is-text');
+  } else {
+    freq.classList.remove('is-text');
+  }
 }
 
 function stopPlayback() {
