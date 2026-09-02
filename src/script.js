@@ -22,7 +22,7 @@ const CATEGORIES_STATIONS = {
   ],
   1: [ // Audiolibros
     { name: "El inamible - Baldomero Lillo", frequency: "Cuento", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788329570/inamible_k0fihv.mp3"},
-    { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "./audios/elhombre.mp3"},
+    { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788331737/el_hombre_de_la_rosa_lmmbo0.mp3"},
     { name: "El Colocolo - Manuel Rojas", frequency: "Cuento", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328919/el_colocolo_thdize.mp3"},
     { name: "La ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "Leyenda", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788330270/ajorca_ncjmly.mp3"},
     { name: "La miel silvestre - Horacio Quiroga", frequency: "Cuento", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788330514/mielsilvestre_v5c01u.mp3"},
