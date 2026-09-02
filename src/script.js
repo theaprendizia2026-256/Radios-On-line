@@ -11,7 +11,7 @@ const CATEGORIES_STATIONS = {
     { name: "0R - Bach Classical, Renania, Alemania", frequency: 89.8, stream: "https://0nlineradio.radioho.st/0r-bach?ref=radio-browser26" },
     { name: "100 Greatest Classical Music, 	Ontario, Canada", frequency: 90.1, stream: "https://az1.mediacp.eu/listen/100greatestclassicalmusic/radio.mp3" },
     { name: "Classical International, Londres, England", frequency: 90.3, stream: "https://ec3.yesstreaming.net:3625/stream" },
-    { name: "Pop Classical Music, Moscú, Rusia", frequency: 90.5, stream: "https://pub0202.101.ru:8443/stream/pro/aac/64/97" },
+    { name: "Pop Classical Music, Moscú, Rusia", frequency: 90.5, stream: "https://srv01.gpmradio.ru:8443/stream/pro/aac/64/97" },
     { name: "Classical Calm by King FM, Seattle, EE.UU", frequency: 90.7, stream: "https://classicalking.streamguys1.com/evergreen-aac-128k" },
     { name: "Classical 90.3, Shanghái, China", frequency: 90.9, stream: "https://lhttp.qingting.fm/live/267/64k.mp3" },
     { name: "KUSC Classical FM 91.1, Los Ángeles, EE.UU", frequency: 91.1, stream: "https://23023.live.streamtheworld.com/KUSCMP96_SC" },
