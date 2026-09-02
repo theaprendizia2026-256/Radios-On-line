@@ -116,6 +116,13 @@ body {
   font-variant-numeric: tabular-nums;
 }
 
+/* AGREGADO: Regla exclusiva para títulos de texto en Audiolibros */
+.frequency.is-text {
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
 .station {
   font-size: 13px;
   color: var(--muted);
