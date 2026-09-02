@@ -71,7 +71,8 @@ let playing = false;
 let degrees = 0;
 
 const freq = document.getElementById("frequency");
-const nameEl = document.getElementById("station");
+const titleEl = document.getElementById("station");
+const subtitleEl = document.getElementById("subtitle");
 const status = document.getElementById("status");
 const audio = document.getElementById("audio");
 const power = document.getElementById("power");
@@ -91,7 +92,16 @@ function updateStationDisplay() {
 
   // Si es número muestra decimales, si es texto lo muestra tal cual
   freq.textContent = isNumber ? current.frequency.toFixed(1) : current.frequency;
-  nameEl.textContent = current.name;
+
+  // SEPARACIÓN INTELIGENTE: Título arriba, Autor/País abajo
+  if (current.name.includes(" - ")) {
+    const parts = current.name.split(" - ");
+    titleEl.textContent = parts[0].trim();       // Nombre / Título
+    subtitleEl.textContent = parts[1].trim();    // Autor / País / Ubicación
+  } else {
+    titleEl.textContent = current.name;
+    subtitleEl.textContent = "---";
+  }
 
   // Aplica o quita la clase dinámica según corresponda
   if (!isNumber) {
