@@ -29,10 +29,10 @@ const CATEGORIES_STATIONS = {
     { name: "El vaso de leche - Manuel Rojas", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328151/el_vaso_de_leche_gdz07e.mp3"},
     { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328919/elhombre_teatro_qazkbl.mp3"},
     { name: "El chiflon del diablo - Baldomero Lillo", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328938/el_chiflon_del_diablo_tni6qw.mp3"},
-    { name: "Leyenda del astrólogo árabe - W. Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788326627/el_astrologo_arabe_bt94gz.mp3"},
-    { name: "Leyenda del legado del moro - W. Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788329561/el_legado_del_moro_inpofe.mp3"},
-    { name: "Leyenda de la Rosa de la Alhambra - W. Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328911/el_paje_y_el_halcon_xhhase.mp3"},
-    { name: "Leyenda de las dos discretas estatuas - W. Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328169/las_dos_estatuas_ox9i2b.mp3"}
+    { name: "Leyenda del astrólogo árabe - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788326627/el_astrologo_arabe_bt94gz.mp3"},
+    { name: "Leyenda del legado del moro - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788329561/el_legado_del_moro_inpofe.mp3"},
+    { name: "Leyenda de la Rosa de la Alhambra - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328911/el_paje_y_el_halcon_xhhase.mp3"},
+    { name: "Leyenda de las dos discretas estatuas - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328169/las_dos_estatuas_ox9i2b.mp3"}
   ],
   2: [ // Noticias
     { name: "Radio Cooperativa - Chile", frequency: 98.8, stream: "https://unlimited3-cl.dps.live/cooperativafm/mp3/icecast.audio" },
