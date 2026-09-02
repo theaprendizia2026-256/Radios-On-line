@@ -154,7 +154,7 @@ body {
 }
 
 .station-subtitle {
-  font-size: clamp(12px, 4.5cqw, 16px); /* Ideal 16px, baja hasta 11px si es largo */
+  font-size: clamp(14px, 4.5cqw, 16px); /* Ideal 16px, baja hasta 11px si es largo */
   font-weight: 400;
   color: var(--muted);
   text-align: center;
