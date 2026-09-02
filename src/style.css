@@ -138,7 +138,7 @@ body {
 }
 
 .station-title {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   color: var(--text);
   text-align: center;
@@ -149,7 +149,7 @@ body {
 }
 
 .station-subtitle {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   color: var(--muted);
   text-align: center;
