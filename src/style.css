@@ -114,6 +114,7 @@ body {
   font-size: 68px;
   font-weight: 200;
   font-variant-numeric: tabular-nums;
+  text-align: center;
 }
 
 /* AGREGADO: Regla exclusiva para títulos de texto en Audiolibros */
@@ -121,6 +122,7 @@ body {
   font-size: 30px;
   font-weight: 300;
   letter-spacing: -0.5px;
+  text-align: center;
 }
 
 .station {
