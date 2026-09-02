@@ -133,12 +133,14 @@ body {
   justify-content: center;
   gap: 4px;
   width: 100%;
-  max-width: 280px;
-  margin-bottom: 12px; /* Otorga el aire necesario antes de la botonera */
+  max-width: 290px;
+  margin-bottom: 14px; /* Otorga el aire necesario antes de la botonera */
+  container-type: inline-size; /* Habilita el cálculo según el ancho disponible */
 }
 
 .station-title {
-  font-size: 18px;
+  /* Mantiene 18px como tamaño ideal y solo se reduce si el texto es muy largo */
+  font-size: clamp(12px, 5.5cqw, 20px); /* Ideal 20px, baja hasta 12px si es largo */
   font-weight: 500;
   color: var(--text);
   text-align: center;
@@ -149,7 +151,7 @@ body {
 }
 
 .station-subtitle {
-  font-size: 16px;
+  font-size: clamp(11px, 4.5cqw, 16px); /* Ideal 16px, baja hasta 11px si es largo */
   font-weight: 400;
   color: var(--muted);
   text-align: center;
