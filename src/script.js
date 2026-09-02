@@ -23,15 +23,15 @@ const CATEGORIES_STATIONS = {
   1: [ // Audiolibros
     { name: "El inamible - Baldomero Lillo", frequency: "Cuento", stream: "./audios/inamible.mp3"},
     { name: "El hombre de la rosa - Manuel Rojas", frequency: "Cuento", stream: "./audios/elhombre.mp3"},
-    { name: "El Colocolo - Manuel Rojas", frequency: "Cuento", stream: "./audios/el_colocolo.mp3"},
+    { name: "El Colocolo - Manuel Rojas", frequency: "Cuento", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328919/el_colocolo_thdize.mp3"},
     { name: "La ajorca de Oro - Gustavo Adolfo Bécquer", frequency: "Leyenda", stream: "./audios/ajorca.mp3"},
     { name: "La miel silvestre - Horacio Quiroga", frequency: "Cuento", stream: "./audios/mielsilvestre.mp3"},
     { name: "El vaso de leche - Manuel Rojas", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328151/el_vaso_de_leche_gdz07e.mp3"},
-    { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "./audios/elhombre(teatro).mp3"},
-    { name: "El chiflon del diablo - Baldomero Lillo", frequency: "RadioTeatro", stream: "./audios/el_chiflon_del_diablo.mp3"},
+    { name: "El hombre de la rosa - Manuel Rojas", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328919/elhombre_teatro_qazkbl.mp3"},
+    { name: "El chiflon del diablo - Baldomero Lillo", frequency: "RadioTeatro", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328938/el_chiflon_del_diablo_tni6qw.mp3"},
     { name: "Leyenda del astrólogo árabe - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788326627/el_astrologo_arabe_bt94gz.mp3"},
     { name: "Leyenda del legado del moro - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "./audios/el_legado_del_moro.mp3"},
-    { name: "Leyenda de la Rosa de la Alhambra - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "./audios/el_paje_y_el_halcon.mp3"},
+    { name: "Leyenda de la Rosa de la Alhambra - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328911/el_paje_y_el_halcon_xhhase.mp3"},
     { name: "Leyenda de las dos discretas estatuas - Washington Irving", frequency: "Cuentos de la Alhambra", stream: "https://res.cloudinary.com/deqk2tmer/video/upload/v1788328169/las_dos_estatuas_ox9i2b.mp3"}
   ],
   2: [ // Noticias
