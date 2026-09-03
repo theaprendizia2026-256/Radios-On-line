@@ -129,14 +129,14 @@ body {
 }
 
 .frequency {
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 200;
   font-variant-numeric: tabular-nums;
   text-align: center;
 }
 
 .frequency.is-text {
-  font-size: clamp(50px, 6cqw, 60px);
+  font-size: clamp(45px, 6cqw, 60px);
   font-weight: 300;
   letter-spacing: -0.5px;
   text-align: center;
