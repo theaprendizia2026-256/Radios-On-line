@@ -136,7 +136,7 @@ body {
 }
 
 .frequency.is-text {
-  font-size: clamp(45px, 6cqw, 60px);
+  font-size: clamp(45px, 6cqw, 50px);
   font-weight: 300;
   letter-spacing: -0.5px;
   text-align: center;
